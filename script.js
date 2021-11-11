@@ -13,8 +13,9 @@ $(document).ready(function(){
 
   $("#box2").hover(function(){
     console.log("You entered box 2-position changed!");
-    $("box2").toggleClass("moveRight");
-  });
+    $("box2").addClass("moveRight");
+  }),
+  
 
   $("#box3").click(function(){
     console.log("You clicked box 2- color changed!");
@@ -23,3 +24,4 @@ $(document).ready(function(){
 
 
 }
+
