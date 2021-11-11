@@ -1,0 +1,16 @@
+.rectangles{
+  height:100px;
+  width:100px;
+  margin:20px;
+  background-color: blue;
+}
+
+
+
+.moveRight{
+  margin-left: 200px;
+}
+
+.changeColor{
+  background: pink;
+}
